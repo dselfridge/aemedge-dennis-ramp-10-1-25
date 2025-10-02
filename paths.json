@@ -2,7 +2,8 @@
   "mappings": [
     "/content/aemedge/:/",
     "/content/aemedge/configuration:/.helix/config.json",
-    "/content/aemedge/metadata:/metadata.json"
+    "/content/aemedge/metadata:/metadata.json",
+    "/content/aemedge/redirects:/redirects.json"
   ],
   "includes": [
     "/content/aemedge/"
