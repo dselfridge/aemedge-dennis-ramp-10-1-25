@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://main--aemedge-dennis-ramp-10-1-25--dselfridge.aem.live/sitemap.xml
