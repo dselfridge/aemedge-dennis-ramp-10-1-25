@@ -1,8 +1,8 @@
-/* /blocks/teaser/teaser.css */
+/* /blocks/geezer/geezer.css */
 
-/* Scope each selector in the block with `.block.teaser` to avoid accidental conflicts outside the block */
-.block.teaser {
-    animation: teaser-fade-in 1s;
+/* Scope each selector in the block with `.block.geezer` to avoid accidental conflicts outside the block */
+.block.geezer {
+    animation: geezer-fade-in 1s;
     position: relative;
     width: 1600px;
     max-width: 100vw;
@@ -12,7 +12,7 @@
     overflow: hidden; 
 
 
-    /* The teaser image */
+    /* The geezer image */
     .image-wrapper {
         position: absolute;
         z-index: -1;
@@ -34,7 +34,7 @@
         }
     }
 
-    /* The teaser text content */
+    /* The geezer text content */
     .content {
         position: absolute;
         bottom: 0;
@@ -57,7 +57,7 @@
         p {
             font-size: var(--body-font-size-s);
             margin-bottom: 1rem;
-            animation: teaser-fade-in .6s;
+            animation: geezer-fade-in .6s;
         }
 
         p.terms-and-conditions {
@@ -96,9 +96,9 @@
     *  Add styling for the side-by-side variant 
     **/
 
-    /* This evaluates to .block.teaser.side-by-side */
+    /* This evaluates to .block.geezer.side-by-side */
     &.side-by-side {    
-        /* Since this default teaser option doesn't have a style (such as `.default`), we use `all: initial` to reset styles rather than overriding individual styles. */
+        /* Since this default geezer option doesn't have a style (such as `.default`), we use `all: initial` to reset styles rather than overriding individual styles. */
         all: initial;
         display: flex;
         margin: auto;
@@ -155,11 +155,11 @@
 }
 
 /** Animations 
-    Scope the @keyframes to the block (teaser) to avoid accidental conflicts outside the block
+    Scope the @keyframes to the block (geezer) to avoid accidental conflicts outside the block
 
     Global @keyframes can defines in styles/styles.css and used in this file.
 **/
-@keyframes teaser-fade-in {
+@keyframes geezer-fade-in {
     from {
         opacity: 0;
     }
