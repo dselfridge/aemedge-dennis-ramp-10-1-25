@@ -1,4 +1,4 @@
-/* /blocks/teaser/teaser.js */
+/* /blocks/geezer/geezer.js */
 
 /**
  * Adds a zoom effect to image using event listeners.
